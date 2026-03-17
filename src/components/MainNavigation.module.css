@@ -75,6 +75,7 @@
   .list {
     width: 100%;
     justify-content: center;
+    flex-direction: column;
     flex-wrap: wrap;
     gap: 1rem;
   }
