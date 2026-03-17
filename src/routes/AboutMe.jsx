@@ -1,5 +1,5 @@
 import classes from "./AboutMe.module.css";
-import selfImage from "../resources/images/self-image.jpg";
+import selfImage from "../resources/images/selfImage.JPG";
 
 function AboutMe() {
   return (
