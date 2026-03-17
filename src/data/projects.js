@@ -27,7 +27,7 @@ export const PROJECTS = [
     description:
       "A practical calculator web app for estimating the cost of 3D printed objects based on material, print time, and printer settings. Built with React, this project emphasizes dynamic form handling, real-time calculations, and a clean, user-friendly interface.",
     techStack: "React, React Hooks, JavaScript, CSS Modules",
-    projectLink: "https://3-d-print-calculator-1pjo5w2za-dvr1s-projects.vercel.app/",
-    gitLink: "https://github.com/yourusername/3d-print-calculator",
+    projectLink: "https://3-d-print-calculator-sigma.vercel.app/",
+    gitLink: "https://github.com/DvR1s/3D-Print-Calculator.git",
   },
 ]
