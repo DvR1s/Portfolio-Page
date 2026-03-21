@@ -1,16 +1,13 @@
 .projectsContainer {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
-  gap: 2rem;
-  justify-items: center;
-  width: 100%;
-  max-width: 1400px;
-  margin: 0 auto;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 5.5rem;
+  justify-self: center;
 }
 
 @media (max-width: 992px) {
   .projectsContainer {
-    grid-template-columns: repeat(auto-fit, minmax(350px, 1fr));
+    grid-template-columns: repeat(2, 1fr);
   }
 }
 
