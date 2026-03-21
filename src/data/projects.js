@@ -1,8 +1,7 @@
-import bendriaPNG from '../resources/images/bendria.png'
-import dogFactsPNG from '../resources/images/dogFacts.png'
-import calcutalorPNG from '../resources/images/calculator.png'
-import fakeMonitorPNG from '../resources/images/fakeMonitor.png'
-import riskRadarPNG from '../resources/images/riskRadar.png'
+import bendriaPNG from "../resources/images/bendria.png";
+import dogFactsPNG from "../resources/images/dogFacts.png";
+import calcutalorPNG from "../resources/images/calculator.png";
+import fakeMonitorPNG from "../resources/images/fakeMonitor.png";
 
 export const PROJECTS = [
   {
@@ -45,14 +44,4 @@ export const PROJECTS = [
     projectLink: "https://fake-monitor-landing-page.vercel.app/",
     gitLink: "https://github.com/DvR1s/fake-monitor-landing-page.git",
   },
-  {
-  id: 5,
-  title: "Safety Reporting System",
-  image: riskRadarPNG,
-  description:
-    "IN PROGRESS -- A full-stack workplace safety and near-miss reporting system where users can submit safety issues, assign priority levels, track active reports, and sign off resolved incidents with resolution comments. The application includes a dashboard-style interface, priority-based color coding, report filtering, and a complete report lifecycle from creation to closure. Built with Next.js App Router and CSS Modules, with MongoDB Atlas integration planned for persistent data storage.",
-  techStack: "Next.js, React, JavaScript, CSS Modules, MongoDB Atlas (planned)",
-  projectLink: "",
-  gitLink: "https://github.com/DvR1s/risk-radar-nextjs.git",
-}
 ];
