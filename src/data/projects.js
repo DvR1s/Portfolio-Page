@@ -4,8 +4,18 @@ import calcutalorPNG from "../resources/images/calculator.png";
 import fakeMonitorPNG from "../resources/images/fakeMonitor.png";
 
 export const PROJECTS = [
-  {
+    {
     id: 1,
+    title: "DevScreen – Product Landing Page",
+    image: fakeMonitorPNG,
+    description:
+      "A modern product landing page for a portable monitor designed for developers and remote workers. The website includes a responsive layout, reusable components, pricing section with monthly/yearly toggle, FAQ accordion, testimonials, and an email signup form. Built with React and Vite, focusing on component-based architecture, clean UI, and responsive design.",
+    techStack: "React, Vite, JavaScript, CSS Modules, Responsive Design",
+    projectLink: "https://fake-monitor-landing-page.vercel.app/",
+    gitLink: "https://github.com/DvR1s/fake-monitor-landing-page.git",
+  },
+  {
+    id: 2,
     title: "Community Information Website",
     image: bendriaPNG,
     description:
@@ -15,7 +25,7 @@ export const PROJECTS = [
     gitLink: "https://github.com/DvR1s/localNews-app.git",
   },
   {
-    id: 2,
+    id: 3,
     title: "Dog Facts API Website",
     image: dogFactsPNG,
     description:
@@ -25,7 +35,7 @@ export const PROJECTS = [
     gitLink: "https://github.com/DvR1s/Dog-API.git",
   },
   {
-    id: 3,
+    id: 4,
     title: "3D Print Cost Calculator",
     image: calcutalorPNG,
     description:
@@ -33,15 +43,5 @@ export const PROJECTS = [
     techStack: "React, React Hooks, JavaScript, CSS Modules",
     projectLink: "https://3-d-print-calculator-sigma.vercel.app/",
     gitLink: "https://github.com/DvR1s/3D-Print-Calculator.git",
-  },
-  {
-    id: 4,
-    title: "DevScreen – Product Landing Page",
-    image: fakeMonitorPNG,
-    description:
-      "A modern product landing page for a portable monitor designed for developers and remote workers. The website includes a responsive layout, reusable components, pricing section with monthly/yearly toggle, FAQ accordion, testimonials, and an email signup form. Built with React and Vite, focusing on component-based architecture, clean UI, and responsive design.",
-    techStack: "React, Vite, JavaScript, CSS Modules, Responsive Design",
-    projectLink: "https://fake-monitor-landing-page.vercel.app/",
-    gitLink: "https://github.com/DvR1s/fake-monitor-landing-page.git",
   },
 ];

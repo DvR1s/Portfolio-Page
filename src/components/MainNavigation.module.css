@@ -1,31 +1,34 @@
 .header {
   width: 100%;
-  background-color: #1f2937;
-  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  display: flex;
+  justify-content: center;
+  margin-top: 1.5rem;
 }
 
 .nav {
-  max-width: 1200px;
-  margin: 0 auto;
-  padding: 1rem 1.5rem;
-
+  width: 100%;
+  max-width: 1100px;
+  padding: 0.8rem 1.5rem;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  background: rgba(255, 255, 255, 0.6);
+  backdrop-filter: blur(10px);
+  border-radius: 14px;
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.08);
 }
 
 .logo {
-  font-size: 1.2rem;
+  font-size: 1.1rem;
   font-weight: 700;
-  color: #f9fafb;
-  letter-spacing: 0.5px;
+  color: #0f172a;
 }
 
 .list {
   display: flex;
   align-items: center;
-  justify-content: center;
-  gap: 1.8rem;
+  gap: 1.5rem;
   list-style: none;
   margin: 0;
   padding: 0;
@@ -34,49 +37,47 @@
 .list a {
   font-weight: 600;
   text-decoration: none;
-  color: #e5e7eb;
-  padding: 0.45rem 0.9rem;
+  color: #0f172a;
+  padding: 0.35rem 0.75rem;
   border-radius: 6px;
   transition: all 0.2s ease;
 }
 
 .notactive {
-  color: #e5e7eb;
+  color: #0f172a;
 }
 
 .active {
-  background-color: #4f46e5;
+  background-color: #3b82f6;
   color: white;
 }
 
 .list a:hover {
-  background-color: #4338ca;
-  color: white;
+  background-color: #dbeafe;
+  color: #1d4ed8;
 }
 
 .contactButton {
-  background-color: #10b981;
+  background-color: #3b82f6;
   color: white !important;
   font-weight: 600;
-  padding: 0.45rem 0.9rem;
+  padding: 0.35rem 0.75rem;
   border-radius: 6px;
 }
 
 .contactButton:hover {
-  background-color: #059669;
+  background-color: #2563eb;
 }
 
 @media (max-width: 768px) {
   .nav {
+    width: 90%;
     flex-direction: column;
-    gap: 1rem;
+    gap: 0.8rem;
   }
 
   .list {
-    width: 100%;
     justify-content: center;
-    flex-direction: column;
     flex-wrap: wrap;
-    gap: 1rem;
   }
 }

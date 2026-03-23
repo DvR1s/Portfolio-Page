@@ -1,11 +1,11 @@
 import Project from "../components/Project";
 import classes from "./Projects.module.css";
-import {PROJECTS} from '../data/projects' 
+import { PROJECTS } from "../data/projects";
 
 function Projects() {
   return (
-    <div className={classes.main}>
-      <div className={classes.maintext}>
+    <div className={classes.page}>
+      <div className={classes.headerCard}>
         <h1>My Latest Projects</h1>
         <p>Here you can explore some of the projects I've built recently.</p>
       </div>
