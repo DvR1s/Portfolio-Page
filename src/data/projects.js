@@ -2,9 +2,10 @@ import bendriaPNG from "../resources/images/bendria.png";
 import dogFactsPNG from "../resources/images/dogFacts.png";
 import calcutalorPNG from "../resources/images/calculator.png";
 import fakeMonitorPNG from "../resources/images/fakeMonitor.png";
+import evVsPetrolPNG from "../resources/images/evVsPetrol.png"
 
 export const PROJECTS = [
-    {
+  {
     id: 1,
     title: "DevScreen – Product Landing Page",
     image: fakeMonitorPNG,
@@ -16,6 +17,17 @@ export const PROJECTS = [
   },
   {
     id: 2,
+    title: "EV vs Petrol LT – Cost Comparison Web App",
+    image: evVsPetrolPNG,
+    description:
+      "An interactive web application that compares electric and petrol/diesel cars based on real driving costs in Lithuania. The app includes electricity and fuel price history charts, a yearly cost calculator, a comparison table for popular cars, and an electric vs petrol comparison guide. Built with React using reusable components, external data files, and dynamic calculations. The project focuses on clean UI, responsive layout, data visualization, and component-based architecture.",
+    techStack:
+      "React, Vite, JavaScript, CSS Modules, Recharts, Framer Motion, React Router",
+    projectLink: "https://ev-vs-petrol.vercel.app/",
+    gitLink: "https://github.com/DvR1s/ev-vs-petrol.git",
+  },
+  {
+    id: 3,
     title: "Community Information Website",
     image: bendriaPNG,
     description:
@@ -25,7 +37,7 @@ export const PROJECTS = [
     gitLink: "https://github.com/DvR1s/localNews-app.git",
   },
   {
-    id: 3,
+    id: 4,
     title: "Dog Facts API Website",
     image: dogFactsPNG,
     description:
@@ -35,7 +47,7 @@ export const PROJECTS = [
     gitLink: "https://github.com/DvR1s/Dog-API.git",
   },
   {
-    id: 4,
+    id: 5,
     title: "3D Print Cost Calculator",
     image: calcutalorPNG,
     description:
